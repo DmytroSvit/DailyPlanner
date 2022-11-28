@@ -24,5 +24,17 @@ namespace PresentationLevel
         {
             InitializeComponent();
         }
+
+        private void SignUp_Click(object sender, RoutedEventArgs e)
+        {
+            Window form2 = new Window();
+            form2.Show();
+        }
+
+        private void ForgotPassword_Click(object sender, RoutedEventArgs e)
+        {
+            Window form2 = new Window();
+            form2.Show();
+        }
     }
 }
