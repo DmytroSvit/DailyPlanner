@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PresentationLevel"
         mc:Ignorable="d"
-        Title="Daily Planner" Height="720" Width="1280">
+        Title="Daily Planner" Height="720" Width="980">
     <Grid ShowGridLines="False">
         <Grid.RowDefinitions>
             <RowDefinition Height="1*"></RowDefinition>
@@ -29,10 +29,10 @@
         </StackPanel>
         <Button Grid.Column="1" Grid.Row="3" FontSize="15" Content="Sign in" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.ColumnSpan="2"  Width="100" Height="40"/>
         
-        <TextBlock Grid.Column="1" Grid.Row="4" FontSize="15" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,0,54,40">
+        <TextBlock Grid.Column="1" Grid.Row="4" FontSize="15" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,0,34,40">
             <Hyperlink Click="ForgotPassword_Click">Forgot Password</Hyperlink >
         </TextBlock>
-        <TextBlock Grid.Column="2" Grid.Row="4" FontSize="15" HorizontalAlignment="left" VerticalAlignment="Top" Margin="54,0,0,40">
+        <TextBlock Grid.Column="2" Grid.Row="4" FontSize="15" HorizontalAlignment="left" VerticalAlignment="Top" Margin="94,0,0,40">
             <Hyperlink Click="SignUp_Click">Sign up</Hyperlink >
         </TextBlock>
     </Grid>

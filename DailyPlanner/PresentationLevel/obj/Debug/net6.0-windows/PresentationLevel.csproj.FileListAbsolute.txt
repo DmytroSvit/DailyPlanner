@@ -19,3 +19,5 @@ C:\Users\Dima\source\repos\DailyPlanner\DailyPlanner\PresentationLevel\obj\Debug
 C:\Users\Dima\source\repos\DailyPlanner\DailyPlanner\PresentationLevel\obj\Debug\net6.0-windows\PresentationLevel.pdb
 C:\Users\Dima\source\repos\DailyPlanner\DailyPlanner\PresentationLevel\obj\Debug\net6.0-windows\PresentationLevel.genruntimeconfig.cache
 C:\Users\Dima\source\repos\DailyPlanner\DailyPlanner\PresentationLevel\obj\Debug\net6.0-windows\ref\PresentationLevel.dll
+C:\Users\Dima\source\repos\DailyPlanner\DailyPlanner\PresentationLevel\obj\Debug\net6.0-windows\SignUpWindow.g.cs
+C:\Users\Dima\source\repos\DailyPlanner\DailyPlanner\PresentationLevel\obj\Debug\net6.0-windows\SignUpWindow.baml

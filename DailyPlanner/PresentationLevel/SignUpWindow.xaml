@@ -1,0 +1,31 @@
+﻿<Window x:Class="PresentationLevel.SignUpWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PresentationLevel"
+        mc:Ignorable="d"
+        Title="SignUpWindow" Height="720" Width="870">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition ></RowDefinition>
+            <RowDefinition Height="1.4*"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition ></ColumnDefinition>
+            <ColumnDefinition Width="1.2*"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Label FontSize="25"  Grid.Column="1" Grid.Row="0"  Grid.ColumnSpan="1" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0">Creating an account:</Label>
+        <StackPanel Grid.Column="1" Grid.Row="1"  Grid.ColumnSpan="1" VerticalAlignment="Center" Margin="50, 0, 50, 0">
+            <Label FontSize="15">Email address:</Label>
+            <TextBox />
+            <Label FontSize="15">Username:</Label>
+            <TextBox />
+            <Label FontSize="15">Password:</Label>
+            <PasswordBox />
+        </StackPanel>
+        <Button Grid.Column="1" Grid.Row="3" FontSize="15" Content="Sign up" HorizontalAlignment="Center" VerticalAlignment="Top" Grid.ColumnSpan="1"  Width="100" Height="40"/>
+    </Grid>
+</Window>
